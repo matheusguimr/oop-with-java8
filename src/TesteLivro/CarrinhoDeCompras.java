@@ -6,7 +6,7 @@ public class CarrinhoDeCompras {
 
     public void adiciona(Livro livro) {
         System.out.println("Adicionando: " + livro);
-        livro.aplicaDescontoDe(0.16);
+        livro.aplicaDescontoDe(0.5);
         total += livro.getValor();
     }
 
@@ -15,13 +15,13 @@ public class CarrinhoDeCompras {
         total += produto.getValor();
     }
 
-    /*public void adiciona(Revista revista) {
+    public void adiciona(Revista revista) {
         System.out.println("Adicionando: " + revista);
-        revista.aplicaDescontoDe(0.16);
+        revista.aplicaDescontoDe(0.5);
         total += revista.getValor();
-    }*/
+    }
 
-    public double getTotal(){
+    public double getTotal() {
         return total;
     }
 }

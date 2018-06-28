@@ -1,6 +1,6 @@
 package TesteLivro;
 
-public class LivroFisico extends Livro {
+public class LivroFisico extends Livro implements Promocional {
 
     public LivroFisico(Autor autor) {
         super(autor);
@@ -17,7 +17,6 @@ public class LivroFisico extends Livro {
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
-        System.out.println("aplicando desconto no LivroFisico");
         return true;
     }
 }
