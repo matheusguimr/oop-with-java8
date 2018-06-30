@@ -19,6 +19,7 @@ public class RegistroDeVendas {
         ebook.setValor(29.90);
 
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
+        Produto[] produtos = carrinho.getProdutos();
 
         if (fisico.aplicaDescontoDe10Porcento()) {
             System.out.println("Valor agora e " + fisico.getValor());
@@ -28,8 +29,6 @@ public class RegistroDeVendas {
         carrinho.adiciona(ebook);
 
         System.out.println("Total " + carrinho.getTotal());
-
-        Produto[] produtos = carrinho.getProdutos();
 
         for (int i = 0; i < produtos.length; i++) {
             Produto produto = produtos[i];
