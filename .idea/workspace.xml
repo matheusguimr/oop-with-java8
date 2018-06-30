@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72bace19-afcd-4400-9ad4-64c28879fc36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TesteLivro/Promocional.java" afterDir="false" />
+    <list default="true" id="72bace19-afcd-4400-9ad4-64c28879fc36" name="Default" comment="Learning about folder organization and default methods">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Promocional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/CarrinhoDeCompras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/CarrinhoDeCompras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Livro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/LivroFisico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/LivroFisico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/RegistroDeVendas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/RegistroDeVendas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/Ebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/LivroFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteLivro/Revista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Autor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/CadastroDeLivros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/CarrinhoDeCompras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Ebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Editora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/LivroFisico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/MiniLivro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/RegistroDeVendas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CasaDoCodigoOO/TesteLivro/RegrasDeDesconto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Editora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/MiniLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Promocional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegrasDeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteLivro/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,100 +40,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LivroFisico.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
+      <file leaf-file-name="MiniLivro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ebook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/Ebook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RegistroDeVendas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="180">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Promocional.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/Promocional.java">
+      <file leaf-file-name="Ebook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Revista.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/Revista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CarrinhoDeCompras.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="294">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Livro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="384">
+              <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TesteLivro/Produto.java">
+      <file leaf-file-name="Editora.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Editora.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Produto.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Revista.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Autor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CadastroDeLivros.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,12 +178,20 @@
         <option value="$PROJECT_DIR$/src/TesteLivro/Editora.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/Produto.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/Livro.java" />
-        <option value="$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java" />
-        <option value="$PROJECT_DIR$/src/TesteLivro/Promocional.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/LivroFisico.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/Ebook.java" />
         <option value="$PROJECT_DIR$/src/TesteLivro/Revista.java" />
+        <option value="$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java" />
+        <option value="$PROJECT_DIR$/src/TesteLivro/Promocional.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Promocional.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java" />
+        <option value="$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java" />
       </list>
     </option>
   </component>
@@ -171,9 +205,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="59" />
     <option name="y" value="-4" />
-    <option name="width" value="651" />
+    <option name="width" value="680" />
     <option name="height" value="772" />
   </component>
   <component name="ProjectView">
@@ -181,6 +214,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="livraria" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="livraria" type="462c0819:PsiDirectoryNode" />
+              <item name="produtos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="livraria" type="462c0819:PsiDirectoryNode" />
+              <item name="teste" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -197,23 +267,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CasaDoCodigoOO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CasaDoCodigoOO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -240,34 +293,34 @@
   </component>
   <component name="RunManager" selected="Application.RegistroDeVendas">
     <configuration name="CadastroDeLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesteLivro.CadastroDeLivros" />
+      <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.livraria.teste.CadastroDeLivros" />
       <module name="CasaDoCodigoOO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TesteLivro.*" />
+          <option name="PATTERN" value="br.com.casadocodigo.livraria.produtos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="RegistroDeVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesteLivro.RegistroDeVendas" />
+      <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.livraria.teste.RegistroDeVendas" />
       <module name="CasaDoCodigoOO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TesteLivro.*" />
+          <option name="PATTERN" value="br.com.casadocodigo.livraria.produtos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="RegrasDeDesconto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesteLivro.RegrasDeDesconto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.livraria.teste.RegrasDeDesconto" />
       <module name="CasaDoCodigoOO" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TesteLivro.*" />
+          <option name="PATTERN" value="br.com.casadocodigo.livraria.produtos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,7 +334,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TesteLivro.*" />
+          <option name="PATTERN" value="br.com.casadocodigo.livraria.produtos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,16 +412,25 @@
       <workItem from="1529974226111" duration="2737000" />
       <workItem from="1530059668305" duration="3101000" />
       <workItem from="1530146910123" duration="5000" />
-      <workItem from="1530147022222" duration="2669000" />
+      <workItem from="1530147022222" duration="2874000" />
+      <workItem from="1530319701176" duration="69000" />
+      <workItem from="1530319877178" duration="5860000" />
     </task>
+    <task id="LOCAL-00001" summary="Learning about Interfaces.">
+      <created>1530149807325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530149807325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21829000" />
+    <option name="totallyTimeSpent" value="27963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1360" height="772" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,16 +438,17 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50147057" side_tool="true" weight="0.28463855" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29819277" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985294" visible="true" weight="0.29819277" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11691176" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31475905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -397,7 +460,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,47 +478,53 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Learning about Interfaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning about Interfaces." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Ebook.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegrasDeDesconto.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegrasDeDesconto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/MiniLivro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -467,120 +535,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Revista.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Editora.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Editora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Produto.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Ebook.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegrasDeDesconto.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegrasDeDesconto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/MiniLivro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
@@ -591,250 +637,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Autor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Autor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Autor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Autor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Autor.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Promocional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CadastroDeLivros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegrasDeDesconto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Editora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/MiniLivro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Promocional.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/LivroFisico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/RegistroDeVendas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegrasDeDesconto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Ebook.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Revista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/LivroFisico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        <state relative-caret-position="294">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Produto.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Autor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CadastroDeLivros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/MiniLivro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/RegistroDeVendas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Ebook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/CarrinhoDeCompras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/teste/Editora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Livro.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/casadocodigo/livraria/produtos/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/CarrinhoDeCompras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteLivro/Revista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,7 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.teste;
+
+import br.com.casadocodigo.livraria.produtos.Livro;
+import br.com.casadocodigo.livraria.produtos.LivroFisico;
 
 public class CadastroDeLivros {
     public static void main(String[] args) {
@@ -27,6 +30,5 @@ public class CadastroDeLivros {
         outroLivro.setIsbn("978-8566-250-46-6");
 
         outroLivro.mostrarDetalhes();
-
     }
 }

@@ -1,4 +1,7 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.teste;
+
+import br.com.casadocodigo.livraria.produtos.Livro;
+import br.com.casadocodigo.livraria.produtos.MiniLivro;
 
 public class RegrasDeDesconto {
     public static void main(String[] args) {

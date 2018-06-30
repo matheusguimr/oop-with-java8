@@ -1,4 +1,6 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.produtos;
+
+import br.com.casadocodigo.livraria.teste.Editora;
 
 public class Revista implements Produto, Promocional {
 
@@ -48,5 +50,4 @@ public class Revista implements Produto, Promocional {
     public void setEditora(Editora editora) {
         this.editora = editora;
     }
-
 }

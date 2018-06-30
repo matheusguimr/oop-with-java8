@@ -1,4 +1,6 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.produtos;
+
+import br.com.casadocodigo.livraria.teste.Autor;
 
 public abstract class Livro implements Produto {
     private String nome;
@@ -65,7 +67,7 @@ public abstract class Livro implements Produto {
 
     public abstract boolean aplicaDescontoDe(double porcentagem);
 
-    void mostrarDetalhes() {
+    public void mostrarDetalhes() {
         System.out.println("Mostrando detalhes do livro");
         System.out.println("Nome: " + nome);
         System.out.println("Descricao: " + descricao);

@@ -1,4 +1,6 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.produtos;
+
+import br.com.casadocodigo.livraria.teste.Autor;
 
 public class Ebook extends Livro implements Promocional {
 

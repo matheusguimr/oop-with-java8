@@ -1,4 +1,4 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.teste;
 
 public class Autor {
     private String nome;
@@ -29,7 +29,7 @@ public class Autor {
         this.cpf = cpf;
     }
 
-    void mostrarDetalhes() {
+    public void mostrarDetalhes() {
         System.out.println("Mostrando detalhes do autor");
         System.out.println("Nome: " + nome);
         System.out.println("Email: " + email);

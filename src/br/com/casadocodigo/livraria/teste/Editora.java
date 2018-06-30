@@ -1,4 +1,4 @@
-package TesteLivro;
+package br.com.casadocodigo.livraria.teste;
 
 public class Editora {
 
