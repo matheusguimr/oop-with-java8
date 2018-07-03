@@ -1,5 +1,6 @@
 package br.com.casadocodigo.livraria.produtos;
 
+import br.com.casadocodigo.livraria.exception.AutorNuloException;
 import br.com.casadocodigo.livraria.teste.Autor;
 
 public abstract class Livro implements Produto {
@@ -10,14 +11,23 @@ public abstract class Livro implements Produto {
     private Autor autor;
     private boolean impresso;
 
-    public Livro(Autor autor) {
-        this();
-        this.autor = autor;
-        this.impresso = true;
+    @Override
+    public String toString() {
+        return "nome = " + nome + "\n" +
+                "descricao = " + descricao + "\n" +
+                "valor = " + valor + "\n" +
+                "isbn = " + isbn + "\n" +
+                "autor = " + autor +
+                " }";
     }
 
-    public Livro() {
+    public Livro(Autor autor) {
+        if (autor == null) {
+            throw new AutorNuloException("O autor do Livro nao pode ser nulo");
+        }
+        this.autor = autor;
         this.isbn = "000-00-00000-00-0";
+        this.impresso = true;
     }
 
     public double getValor() {

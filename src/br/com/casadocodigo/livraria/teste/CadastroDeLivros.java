@@ -16,7 +16,7 @@ public class CadastroDeLivros {
         livro.setValor(59.90);
         livro.setIsbn("978-8566-250-46-6");
 
-        livro.mostrarDetalhes();
+        livro.toString();
 
         Autor outroAutor = new Autor();
         outroAutor.setNome("Paulo Silveira");
@@ -29,6 +29,6 @@ public class CadastroDeLivros {
         outroLivro.setValor(59.90);
         outroLivro.setIsbn("978-8566-250-46-6");
 
-        outroLivro.mostrarDetalhes();
+        outroLivro.toString();
     }
 }

@@ -1,8 +1,11 @@
 package br.com.casadocodigo.livraria.teste;
 
 import br.com.casadocodigo.livraria.produtos.Ebook;
+import br.com.casadocodigo.livraria.produtos.Livro;
 import br.com.casadocodigo.livraria.produtos.LivroFisico;
 import br.com.casadocodigo.livraria.produtos.Produto;
+
+import java.io.FileNotFoundException;
 
 public class RegistroDeVendas {
     public static void main(String[] args) {
@@ -29,12 +32,5 @@ public class RegistroDeVendas {
         carrinho.adiciona(ebook);
 
         System.out.println("Total " + carrinho.getTotal());
-
-        for (int i = 0; i < produtos.length; i++) {
-            Produto produto = produtos[i];
-            if (produto != null) {
-                System.out.println(produto.getValor());
-            }
-        }
     }
 }
