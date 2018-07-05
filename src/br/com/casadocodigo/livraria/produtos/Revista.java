@@ -50,4 +50,9 @@ public class Revista implements Produto, Promocional {
     public void setEditora(Editora editora) {
         this.editora = editora;
     }
+
+    @Override
+    public int compareTo(Produto produto) {
+        return 0;
+    }
 }

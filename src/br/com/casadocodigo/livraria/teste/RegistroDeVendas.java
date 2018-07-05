@@ -6,6 +6,7 @@ import br.com.casadocodigo.livraria.produtos.LivroFisico;
 import br.com.casadocodigo.livraria.produtos.Produto;
 
 import java.io.FileNotFoundException;
+import java.util.List;
 
 public class RegistroDeVendas {
     public static void main(String[] args) {
@@ -22,7 +23,11 @@ public class RegistroDeVendas {
         ebook.setValor(29.90);
 
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
-        Produto[] produtos = carrinho.getProdutos();
+        List<Produto> produtos = carrinho.getProdutos();
+
+        for (Produto produto : produtos) {
+            System.out.println(produto);
+        }
 
         if (fisico.aplicaDescontoDe10Porcento()) {
             System.out.println("Valor agora e " + fisico.getValor());

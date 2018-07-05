@@ -11,6 +11,26 @@ public abstract class Livro implements Produto {
     private Autor autor;
     private boolean impresso;
 
+    public Livro(Autor autor) {
+        if (autor == null) {
+            throw new AutorNuloException("O autor do Livro nao pode ser nulo");
+        }
+        this.autor = autor;
+        this.isbn = "000-00-00000-00-0";
+        this.impresso = true;
+    }
+
+    @Override
+    public int compareTo(Produto outro) {
+        if (this.getValor() < outro.getValor()) {
+            return -1;
+        }
+        if (this.getValor() > outro.getValor()) {
+            return 1;
+        }
+        return 0;
+    }
+
     @Override
     public String toString() {
         return "nome = " + nome + "\n" +
@@ -19,15 +39,6 @@ public abstract class Livro implements Produto {
                 "isbn = " + isbn + "\n" +
                 "autor = " + autor +
                 " }";
-    }
-
-    public Livro(Autor autor) {
-        if (autor == null) {
-            throw new AutorNuloException("O autor do Livro nao pode ser nulo");
-        }
-        this.autor = autor;
-        this.isbn = "000-00-00000-00-0";
-        this.impresso = true;
     }
 
     public double getValor() {

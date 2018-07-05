@@ -1,31 +1,31 @@
 package br.com.casadocodigo.livraria.teste;
 
-import br.com.casadocodigo.livraria.produtos.Livro;
 import br.com.casadocodigo.livraria.produtos.Produto;
-import br.com.casadocodigo.livraria.produtos.Revista;
+
+import java.util.*;
 
 public class CarrinhoDeCompras {
 
     private double total;
-    private Produto[] produtos = new Produto[10];
-    private int contador = 0;
+    ArrayList<Produto> produtos;
 
-    public Produto[] getProdutos() {
-        return produtos;
-    }
-
-    public void setProduto(Produto[] produto) {
-        this.produtos = produto;
+    public CarrinhoDeCompras() {
+        this.produtos = new ArrayList<>();
     }
 
     public void adiciona(Produto produto) {
-        System.out.println("Adicionando: " + produto);
-        this.produtos[contador] = produto;
-        contador++;
-        this.total += produto.getValor();
+        produtos.add(produto);
+    }
+
+    public void remove(int posicao) {
+        this.produtos.remove(posicao);
     }
 
     public double getTotal() {
         return total;
+    }
+
+    public List<Produto> getProdutos() {
+        return produtos;
     }
 }
