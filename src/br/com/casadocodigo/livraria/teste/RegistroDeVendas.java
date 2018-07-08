@@ -1,11 +1,9 @@
 package br.com.casadocodigo.livraria.teste;
 
 import br.com.casadocodigo.livraria.produtos.Ebook;
-import br.com.casadocodigo.livraria.produtos.Livro;
 import br.com.casadocodigo.livraria.produtos.LivroFisico;
 import br.com.casadocodigo.livraria.produtos.Produto;
 
-import java.io.FileNotFoundException;
 import java.util.List;
 
 public class RegistroDeVendas {

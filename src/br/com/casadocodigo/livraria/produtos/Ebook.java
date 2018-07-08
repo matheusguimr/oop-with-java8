@@ -19,7 +19,6 @@ public class Ebook extends Livro implements Promocional {
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
         return true;
-        //return super.aplicaDescontoDe(porcentagem);
     }
 
     public String getWaterMark() {

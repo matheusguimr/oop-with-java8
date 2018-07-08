@@ -4,6 +4,7 @@ import br.com.casadocodigo.livraria.exception.AutorNuloException;
 import br.com.casadocodigo.livraria.teste.Autor;
 
 public abstract class Livro implements Produto {
+
     private String nome;
     private String descricao;
     private double valor;
@@ -87,17 +88,4 @@ public abstract class Livro implements Produto {
     }
 
     public abstract boolean aplicaDescontoDe(double porcentagem);
-
-    public void mostrarDetalhes() {
-        System.out.println("Mostrando detalhes do livro");
-        System.out.println("Nome: " + nome);
-        System.out.println("Descricao: " + descricao);
-        System.out.println("Valor: " + valor);
-        System.out.println("ISBN: " + isbn);
-        System.out.println("--");
-        if (this.temAutor()) {
-            autor.mostrarDetalhes();
-        }
-        System.out.println("--");
-    }
 }
